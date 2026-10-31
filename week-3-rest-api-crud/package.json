@@ -1,0 +1,23 @@
+{
+  "name": "week-3-rest-api-crud",
+  "version": "1.0.0",
+  "description": "Taskly REST API - Express.js + MongoDB (Mongoose) CRUD. AUREX Full-Stack Internship, Month 2, Week 3.",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  }
+}
